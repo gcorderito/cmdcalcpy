@@ -24,8 +24,8 @@ def realizar_operacion():
 
 # Crear la ventana
 ventana = tk.Tk()
-ventana.title("Calculadora")
-ventana.geometry("300x200")
+ventana.title("Pycalc")
+ventana.geometry("200x200")
 
 # Crear los widgets
 label_num1 = tk.Label(ventana, text="Número 1:")
