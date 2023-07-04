@@ -13,7 +13,7 @@ def division(a, b):
     else:
         return "Error: división por cero. Ingrese un valor mayor a cero."
 
-print("Calculadora básica de consola")
+print("Pycalc")
 print("Operaciones disponibles con 2 valores:")
 print("1. Suma")
 print("2. Resta")
