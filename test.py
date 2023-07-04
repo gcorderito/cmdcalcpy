@@ -14,7 +14,7 @@ def division(a, b):
         return "Error: división por cero. Ingrese un valor mayor a cero."
 
 print("Calculadora básica de consola")
-print("Operaciones disponibles:")
+print("Operaciones disponibles con 2 valores:")
 print("1. Suma")
 print("2. Resta")
 print("3. Multiplicación")
