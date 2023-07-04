@@ -16,9 +16,9 @@ def realizar_operacion():
         if num2 != 0:
             resultado = num1 / num2
         else:
-            resultado = "Error: división por cero"
+            resultado = "Error: división por cero. Ingrese un valor mayor a cero."
     else:
-        resultado = "Operación inválida"
+        resultado = "Operación inválida. Seleccione el tipo de operacion a realizar."
 
     label_resultado.config(text="Resultado: " + str(resultado))
 
