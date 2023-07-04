@@ -11,16 +11,16 @@ def division(a, b):
     if b != 0:
         return a / b
     else:
-        return "Error: división por cero"
+        return "Error: división por cero. Ingrese un valor mayor a cero."
 
-print("Calculadora básica")
+print("Calculadora básica de consola")
 print("Operaciones disponibles:")
 print("1. Suma")
 print("2. Resta")
 print("3. Multiplicación")
 print("4. División")
 
-operacion = input("Selecciona una operación (1/2/3/4): ")
+operacion = input("Selecciona una opcion de operación del 1 al 4 (1/2/3/4): ")
 
 num1 = float(input("Ingrese el primer número: "))
 num2 = float(input("Ingrese el segundo número: "))
